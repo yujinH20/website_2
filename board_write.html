@@ -1,0 +1,111 @@
+<!DOCTYPE html><!-- 21961129 허유진 -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Design.You</title>
+    <link rel="stylesheet" type="text/css" href="./common.css">
+    <link rel="stylesheet" type="text/css" href="./header.css">
+    <link rel="stylesheet" type="text/css" href="./footer.css">
+    <link rel="stylesheet" type="text/css" href="./board_left.css">
+    <link rel="stylesheet" type="text/css" href="./board_write_main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="wrap">
+      <header>
+        <a href="./index.html"><img id="logo" src="./logo.png"></a>
+        <nav id="top_menu">
+          HOME | LOGIN | JOIN | NOTICE
+        </nav>
+        <nav id="main_menu">
+          <ul>
+            <li><a href="./board_list.html">자유 게시판</a></li>
+            <li><a href="#">포트폴리오 모음</a></li>
+            <li><a href="#">디자인 정보</a></li>
+            <li><a href="#">전시/행사 안내</a></li>
+            <li><a href="#">회원 게시판</a></li>
+          </ul>
+        </nav>
+      </header>
+      <aside class="">
+        <article id="login_box">
+          <img id="login_title" src="./ttl_login.png">
+          <div id="input_button">
+          <ul id="login_input">
+            <li><input type="text"></li>
+            <li><input type="password"></li>
+          </ul>
+          <img id="login_btn" src="./btn_login.png">
+          </div>
+          <div class="clear"></div>
+          <div id="join_search">
+            <img src="./btn_join.png">
+            <img src="./btn_search.png">
+          </div>
+          </article>
+          <article id="sub_menu">
+            <div id="sub_menu_title">
+              <img src="./ttl_community.png">
+            </div>
+            <ul>
+              <li>| 자유 게시판</li>
+              <li>| 방명록</li>
+              <li>| 공지사항</li>
+              <li>| 등업 요쳥</li>
+              <li>| 사진갤러리</li>
+            </ul>
+          </article>
+          <article id="sub_banner">
+            <ul>
+              <li><img src="./banner1.png"></li>
+              <li><img src="./banner2.png"></li>
+              <li><img src="./banner3.png"></li>
+            </ul>
+          </article>
+      </aside>
+
+      <section id="main">
+        <img src="./main_img.png">
+        <h2 id="board_title">자유 게시판 </h2>
+        <div id="write_title"><h2>글쓰기</h2></div>
+        <table>
+          <tr id="name">
+            <td class="col1">이름</td>
+            <td class="col2"><input type="text"></td>
+          </tr>
+          <tr id="subject">
+            <td class="col1">제목</td>
+            <td class="col2"><input type="text"></td>
+          </tr>
+          <tr id="content">
+            <td class="col1">내용</td>
+            <td class="col2"><textarea></textarea></td>
+          </tr>
+          <tr id="upload">
+            <td class="col1">업로드 파일</td>
+            <td class="col2"><input type="text"> <input type="file"></td>
+          </tr>
+        </table>
+        <div id="buttons">
+          <a href="#"><img src="./ok.png"></a>
+          <a href="./board_list.html"><img src="./list.png"></a>
+        </div>
+      </section>
+        <div class="clear"></div>
+
+        <footer>
+          <img id="footer_logo" src="./logo.png">
+          <ul id="address">
+            <li>서울시 강남구 삼성동 1234 우 : 123-1234</li>
+            <li>TEL : 02-1234-1234  Email : email@design.com</li>
+            <li>COPYRIGHT (C) Design.You ALL RIGHTS RESERVED</li>
+          </ul>
+          <ul id="footer_sns">
+            <li><img src="./n.png"></li>
+            <li><img src="./i.png"></li>
+            <li><img src="./b.png"></li>
+          </ul>
+        </footer>
+      </div>
+  </body>
+</html>
